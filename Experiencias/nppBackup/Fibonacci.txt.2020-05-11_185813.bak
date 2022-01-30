@@ -1,0 +1,29 @@
+*****Recursión*****
+
+Se define la funcion Fibonacci(n):
+    Si n = 1
+        retornar 1
+    Si n = 0
+        retornar 0
+    Sino:
+        retornar Fibonacci(n-1) + Fibonacci(n-2)
+
+
+
+*****Iteracion*****
+
+Se definen los valores inciales de la serie: a=0 y b=1
+Se define un contador i = 0
+Se defina la funcion Fibonacci(n):
+    Si n = 0
+        retornar 0
+    Sino:
+
+        Mientras el contador sea menor a n (i < n)
+    
+        suma = a + b
+        a = b           //Se le dará el valor de la derecha al numero de la izquierda
+        b = suma        //Se le asignará el nuevo valor al numero de la derecha 
+    
+        Se le suma 1 al contador
+    Retornar suma
